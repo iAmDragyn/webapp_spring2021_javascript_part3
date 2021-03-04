@@ -14,13 +14,25 @@
 
         </header>
 
-        <div class="container d-flex h-100">
-            <div class="row my-auto mx-auto">
-             I'm vertically centered
-            </div>
+        <div class="container d-flex h-100 booksLogo">
+               
+            <div class="col my-auto mx-auto text-center">
+                <img src="books.svg" width="150" height="150" alt="">
+             <h2> I Wanna Look for a Book! </h2>
+            </div> <br>
         </div>
 
-        <footer>
+        <form class="col-md-8 col-lg-6 my-auto mx-auto">
+            <div class="input-group">
+                <input type="text" id="txtSearch" name="txtSearch" class="form-control" placeholder="Book!">
+                <button type="button" class="btn btn-outline-dark" onclick="searchGoogleBooks()"> Look! </button>
+            </div>
+        </form>
+
+        <div id="mainDiv" class="results text-center"> </div>
+
+
+        <footer class="text-center">
             <h8> © Copyright Alex Verkest CU Denver Spring 2021 </h8>
         </footer>
 
