@@ -7,7 +7,7 @@ app.component('book-display', {
         }
     },
     template:
-        /*html*/
+        /* html */
         `<ul class="col-sm-12 col-md-6 col-xl-4">
         <a class="list-group-item list-group-item-action list-group-item-dark" :href="this.bookObj.selfLink"> {{ this.bookObj.volumeInfo.title }} </a>
         <li class= "list-group-item" > {{ this.bookObj.volumeInfo.authors }} </li>

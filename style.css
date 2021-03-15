@@ -7,6 +7,15 @@ button {
     margin-left: 10px;
 }
 
+  
+.invisible {
+    display: none;
+}
+
+.pageButtons {
+    margin-top: 100px;
+}
+
 .booksLogo {
     margin-top: 150px;
  }

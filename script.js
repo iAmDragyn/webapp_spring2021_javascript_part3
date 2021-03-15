@@ -1,5 +1,6 @@
 function searchGoogleBooks() {
     var txtSearch = document.querySelector("#txtSearch")
+
     if (txtSearch.value == "") {
         document.querySelector("#mainDiv").classList.add("hasError")
         document.querySelector("#mainDiv").innerHTMLL = "No search keyword provided..."
